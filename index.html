@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance Marking System</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="container">
+    <h1>Attendance Marking System</h1>
+    <table id="attendanceTable">
+      <thead>
+        <tr>
+          <th>Roll No</th>
+          <th>Name</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Harshana</td>
+          <td class="status">-</td>
+          <td>
+            <button class="present">Present</button>
+            <button class="absent">Absent</button>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Sandaru</td>
+          <td class="status">-</td>
+          <td>
+            <button class="present">Present</button>
+            <button class="absent">Absent</button>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Kasun</td>
+          <td class="status">-</td>
+          <td>
+            <button class="present">Present</button>
+            <button class="absent">Absent</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="summary" id="summary">Total Present: 0 | Total Absent: 0</div>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
